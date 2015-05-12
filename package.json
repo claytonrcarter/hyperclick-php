@@ -1,0 +1,17 @@
+{
+  "name": "hyperclick-provider-demo",
+  "author": "Facebook",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Hyperclick provider demo",
+  "engines": {
+    "atom": ">0.194.0"
+  },
+  "providedServices": {
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "getProvider"
+      }
+    }
+  }
+}
