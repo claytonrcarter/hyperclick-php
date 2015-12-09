@@ -1,9 +1,9 @@
 {
-  "name": "hyperclick-provider-demo",
-  "author": "Facebook",
+  "name": "hyperclick-php",
+  "author": "Clayton Carter",
   "main": "./lib/main",
   "version": "0.0.0",
-  "description": "Hyperclick provider demo",
+  "description": "Hyperclick support for PHP",
   "engines": {
     "atom": ">0.194.0"
   },
