@@ -1,4 +1,11 @@
-# Hyperclick Provider
+# Hyperclick PHP
 
-This is a provider demo for [Hyperclick](https://github.com/oclbdk/hyperclick).
-`<cmd-click>` on a word to show a notification with details about its position.
+A *very* simple [Hyperclick](https://github.com/facebooknuclideapm/hyperclick)
+provider for PHP.  Inspired by [js-hyperclick](https://github.com/AsaAyers/js-hyperclick).
+
+### Usage
+`<cmd-click>` on a supported word to jump it's declaration or location.
+
+### Features
+* **Variables**: jump to their last definition in current file.
+* **Required/Included Files**: open file in new pane, or - if already open - jump to it's pane in editor.
