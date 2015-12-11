@@ -1,7 +1,7 @@
 <?php
 
-require './test2.php';
-include( './test2.php' );
+require './test_2.php';
+include( './test_2.php' );
 
 $var1 = "declare";
 
