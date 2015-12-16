@@ -2,9 +2,12 @@
   "name": "hyperclick-php",
   "author": "Clayton Carter",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Hyperclick support for PHP",
-  "keywords": [ "hyperclick", "php" ],
+  "keywords": [
+    "hyperclick",
+    "php"
+  ],
   "repository": "https://github.com/claytonrcarter/hyperclick-php",
   "bugs": "https://github.com/claytonrcarter/hyperclick-php/issues",
   "license": "MIT",
