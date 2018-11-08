@@ -5,7 +5,7 @@ provider for PHP.  Inspired by [js-hyperclick](https://github.com/AsaAyers/js-hy
 Hyperclick package is required.
 
 ### Usage
-`<cmd-click>` on a supported word to jump it's declaration or location.
+`<cmd-click>` on a supported word to jump its declaration or location.
 
 ### Features
 * **Variables**: jump to their last definition in current file.
