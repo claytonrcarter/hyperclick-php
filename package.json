@@ -2,7 +2,7 @@
   "name": "hyperclick-php",
   "author": "Clayton Carter",
   "main": "./lib/main",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Hyperclick support for PHP",
   "keywords": [
     "hyperclick",
