@@ -18,14 +18,20 @@ function also_a_func() { return; }
 echo $var2;
 echo "$var2";
 echo $var_from_other_file;
+echo $var1; echo $var2;
 
 $v =  this_is_a_function( $var1, $var2, also_a_func() );
+
+also_a_func(); also_a_func();
 
 class ClassName
 {
 
     function foo($argument)
     {
+        $this->buzz = 1;
+        $this->buzz; $this->buzz;
+        $this -> buzz;
     }
 
     function bar($argument)
@@ -35,6 +41,9 @@ class ClassName
 
     function baz($argument)
     {
+        $this->buzz;
+        $this->buzz = 2;
+        $this->buzz;
         $this->bar(2);
     }
 }
